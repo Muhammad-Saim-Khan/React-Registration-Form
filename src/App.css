@@ -1,0 +1,200 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.error {
+  font-size: small;
+  color: red;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+
+    rgb(46, 49, 146),
+    rgb(55, 198, 255),
+    rgba(27, 255, 255)
+  );
+}
+.password-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.two {
+  width: 100%;
+  padding-right: 2.5rem;
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+
+  justify-content: center;
+}
+
+.saim {
+  display: flex;
+  gap: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex > div,
+fieldset > div {
+  width: 100%;
+}
+
+fieldset {
+  width: 70%;
+  margin: 20px auto;
+  align-items: center;
+  padding: 50px;
+}
+
+.form-fields label {
+  font-size: x-large;
+}
+
+.form-fields select,
+.form-fields input {
+  width: 100%;
+  height: 50px;
+  font-size: large;
+  padding: 5px 20px;
+  display: block;
+}
+span {
+  font-weight: bold;
+}
+p {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 20px;
+}
+.abdullah {
+  font-size: large;
+}
+.abc {
+  color: red;
+  text-decoration: none;
+}
+button {
+  width: 100%;
+  height: 40px;
+  background-color: #67c1f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: red;
+}
+@media screen and (max-width: 600px) {
+  p {
+    font-size: x-large;
+  }
+  .toggle-button {
+    font-size: medium;
+  }
+
+  .abdullah {
+    font-size: small;
+  }
+
+  .form-fields select,
+  .form-fields input {
+    /* width: 100%; */
+    height: 35px;
+    font-size: small;
+    padding: 5px 20px;
+    display: block;
+  }
+  fieldset {
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .form-fields label {
+    font-size: medium;
+  }
+
+  .flex {
+    gap: 10px;
+  }
+
+  .flex > div,
+  fieldset > div {
+    width: 100%;
+  }
+  .rounded-button {
+    border-radius: 20px;
+    padding: 6px 20px;
+    border: none;
+    background-color: rgb(37, 0, 224);
+    min-width: none;
+    color: white;
+  }
+  .fs-18px {
+    font-size: small;
+  }
+  .saim {
+    gap: 0 px;
+  }
+}
+span:hover {
+  color: red;
+}
+.abc:hover {
+  color: darkviolet;
+}
+label:hover {
+  color: red;
+}
+input:hover {
+  background-color: rgb(0, 255, 225);
+  color: black;
+}
+input {
+  border: none;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+}
+input:focus {
+  border: 3px solid #555;
+  background-color: lime;
+}
+.toggle-button:hover {
+  color: red;
+}
+select:hover {
+  background-color: rgb(0, 255, 225);
+}
